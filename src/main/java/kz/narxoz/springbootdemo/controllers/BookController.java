@@ -80,4 +80,9 @@ public class BookController {
     public String profile(Model model) {
         return "profile";
     }
+
+    @GetMapping(value = "about_us")
+    public String aboutUs() {
+        return "about_us";
+    }
 }
